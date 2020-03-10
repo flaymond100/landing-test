@@ -1,0 +1,420 @@
+/**********************************TAG SELECTORS*********************************/
+body {
+  Font-size: 16px;
+  font-family: 'Karla', sans-serif;
+  margin: auto;
+  text-align: center;
+}
+
+img {
+position: absolute;
+
+}
+
+
+li {
+  list-style-type: none;
+}
+
+h1 {
+  font-family: 'DM Serif Display', serif;
+  font-size: 80px;
+  font-weight: 400;
+  letter-spacing: 0;
+  margin: 0px auto 0px auto;
+  padding-right: 50px;
+  text-align: left;
+}
+
+h3 {
+  position: relative;
+  font-family: 'DM Serif Display', serif;
+  font-size: 35px;
+  font-weight: 300;
+}
+
+hr {
+  border-top-width: 0px;
+  padding-top: 5em;
+  border-right-width: 0px;
+  border-left-width: 0px;
+  margin-right: 80%;
+  margin-left: 0px;
+  width: 148px;
+}
+
+
+
+p {
+  color: #FAFAFA;
+  font-size: 25px;
+  letter-spacing: 1px;
+  padding-right: 2em;
+  margin-right: 10%;
+}
+
+a {
+  text-decoration: none;
+}
+
+/********************************CLASS SELECTORS*********************************/
+.block-text {
+  display: inline-block;
+  text-align: left;
+  z-index: 5;
+}
+
+.block-text-par {
+  color: #837D87;
+  font-size: 20px;
+  padding-right: 0px;
+  margin-right: 0px;
+}
+
+.bottom-container {
+  color: white;
+    background-color: #2D2640;
+    display: block;
+    margin: 160px auto;
+    position: relative;
+    max-width: 80%;
+    overflow: hidden;
+
+}
+
+.circles-right {
+    margin-left: 1030px;
+  position: relative;
+      z-index: 4;
+}
+
+.circles-right-bottom {
+  left: 1126px;
+      top: -100px;
+position: absolute;
+
+
+}
+
+.circles-right-bottom-container {
+  left: 1126px;
+      top: -68px;
+position: absolute;
+}
+
+.circles-left {
+  display: inline;
+  position: absolute;
+  left: 0px;
+  margin-top: 25%;
+}
+
+.circles-left-png {
+padding-left: 0;
+
+}
+
+.column {
+  float: right;
+  width: 33.33%;
+  padding: 5px;
+  margin: auto 4px;
+}
+
+
+.сontainer {
+  position: relative;
+  display: block;
+  margin: auto;
+max-width: 80%;
+
+}
+
+.container-h1 {
+  color: #2B272F;
+  text-align: left;
+  margin-top: 100px;
+
+}
+
+.cont-symb {
+  display: block;
+  padding-bottom: 120px;
+}
+
+.footer-p {
+  color: #2D2640;
+  text-align: left;
+      Font-size: 14px;
+          margin: 16px auto;
+          font-weight: 800;
+
+}
+
+.footer-p:hover {
+  text-decoration: underline;
+}
+
+.footer{
+      background-color: #FAFAFA;
+      overflow: hidden;
+      position: relative;
+      margin-bottom: 60px;
+}
+
+
+.footer-circles {
+  position: absolute;
+  transform: rotate(280deg);
+    right: 1461px;
+        bottom: -64px;
+         opacity: 0.5;
+
+}
+
+.footer-block-text {
+
+  display: flex;
+  justify-content: space-between;
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 10px 0;
+  text-align: left;
+}
+
+.footer-h3 {
+  position: relative;
+letter-spacing: -1px;
+    font-family: 'Karla', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  color: grey;
+}
+
+.footer-hr {
+  padding-bottom: 2px;
+  width: 80%;
+  position: relative;
+    /* right: 0px; */
+    /* margin-left: 20%; */
+
+    left: -114px;
+}
+
+.footer-fb:hover {
+  filter: invert(13%) sepia(29%) saturate(977%) hue-rotate(215deg) brightness(30%) contrast(89%);
+
+}
+
+.footer-tw:hover {
+filter: invert(13%) sepia(29%) saturate(977%) hue-rotate(215deg) brightness(30%) contrast(89%);
+}
+
+.footer-pn:hover {
+filter: invert(13%) sepia(29%) saturate(977%) hue-rotate(215deg) brightness(30%) contrast(89%);
+}
+
+.footer-in:hover {
+filter: invert(13%) sepia(29%) saturate(977%) hue-rotate(215deg) brightness(30%) contrast(89%);
+}
+
+.footer-icons {
+  position: absolute;
+  content: "";
+  clear: both;
+  display: -webkit-inline-box;
+  left: 1328px;
+  z-index: 8;
+}
+
+.footer-icons img{
+  margin-left: 20px;
+}
+
+.head {
+  position: relative;
+  margin-bottom: 60px;
+  padding-top: 28px;
+  padding-bottom: 28px;
+  letter-spacing: 0.3px;
+  margin-top: 20px;
+
+
+}
+
+.logo {
+  display: inline-block;
+  float: left;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.logo-footer {
+  display: inline-block;
+  float: left;
+  position: relative;
+  box-sizing: border-box;
+  max-width: 80%;
+  margin-left: 10%;
+}
+
+.logo-text {
+  font-family: 'DM Serif Display', serif;
+  margin: 0;
+}
+
+.h1-how-we-work {
+  text-align: left;
+  display: inline-block;
+  position: static;
+padding-right: 700px;
+margin-left: 64px;
+margin-top: 70px;
+margin-bottom: 70px;
+margin-bottom: 35px;
+}
+
+
+.head-text-box {
+  display: inline-block;
+  float: right;
+  position: relative;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.head-text {
+  color: grey;
+  text-decoration: none;
+  padding: 0 1em 0 1em;
+}
+
+.head-text:hover {
+  color: #2B272F;
+}
+
+.head-text-plans {
+  color: #2D2640;
+  text-decoration: none;
+  padding-right: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  border: 1px solid #2D2640;
+}
+
+.head-text-plans:hover {
+  background-color: #2B272F;
+  color: white;
+}
+
+.hr-middle {
+  border-color: #837D87;
+  padding-top: 250px;
+}
+
+.hr-picture {
+  display: inline-block;
+}
+
+.how-we-work {
+  text-align: right;
+  position: relative;
+      bottom: 16px;
+      display: inline-block;
+    margin: auto;
+    left: 600px;
+    bottom: 180px;
+    z-index: 5;
+
+}
+
+.how-we-work-container {
+  float: right;
+
+  text-align: right;
+  color: white;
+  text-decoration: none;
+  border: 1px solid white;
+  padding-right: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  display: inline-block;
+}
+
+.how-we-work-container:hover {
+  background-color: white;
+  color: #2D2640;
+}
+
+
+.main-body {
+margin: auto;
+position: relative;
+
+}
+
+.main-picture {
+  padding-left: 220px;
+}
+
+.middle-container-text {
+  display: inline-flex;
+  margin-top: 100px;
+}
+
+.middle-content {
+  display: block;
+  text-align: left;
+}
+
+.symb {
+  float: left;
+  align: left;
+  width: 90px;
+  /* you can use % */
+  height: auto;
+}
+
+.text-top {
+  margin-right: 40%;
+  text-align: left;
+}
+
+.top-container {
+  color: white;
+  background-color: #2D2640;
+  display: block;
+  margin: auto;
+}
+
+.top-container-text {
+  padding-left: 191px;
+  padding-right: 191px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.view-plans-middle {
+  margin-top: 5em;
+  text-align: left;
+  margin-bottom: 80px;
+}
+
+.view-plans-middle-container {
+  text-align: left;
+  color: white;
+  text-decoration: none;
+  border: 1px solid white;
+  padding-right: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+}
+
+.view-plans-middle-container:hover {
+  background-color: white;
+  color: #2D2640;
+}
